@@ -1,0 +1,66 @@
+
+*{
+    margin-top:5%;
+    margin-left:13%;
+}
+.height{
+    width:200px;
+    padding-top:10px;
+    margin-top:10px;
+    padding-bottom: 10px;
+}
+
+.weight{
+width:200px;
+padding-top:10px;
+margin-top:10px;
+margin-bottom:5px;
+padding-bottom:10px;
+
+}
+
+
+
+
+#bmi,label{
+    display:block;
+    margin-top:10px;
+
+}
+
+
+
+.but{
+    display:block;
+    padding:10px;
+    width:100px;
+    margin-top:10px;
+    border-radius: 10px;
+    background:rgb(55, 189, 55);
+    color:white;
+    cursor: pointer;
+  
+    
+}
+
+img{
+   height:11%;
+   width:10%;
+    padding-left:50px;
+   
+    
+   
+    
+}
+
+
+.meow{
+   
+  
+    width:30px;
+    padding-left: 50px;
+    color:green;
+    
+
+
+}
