@@ -1,52 +1,78 @@
-
-*{
-    margin-top:5%;
-    margin-left:13%;
+body {
+    background: linear-gradient(to left, rgb(55, 189, 55)50%, white 50%);
 }
+
+#bmi{
+    margin-left:  43%;
+    padding-top: 10%;
+
+    
+   
+    }
+
+
+
 .height{
     width:200px;
     padding-top:10px;
     margin-top:10px;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
+    
 }
 
 .weight{
 width:200px;
 padding-top:10px;
-margin-top:10px;
-margin-bottom:5px;
+margin-top: 10px;
+margin-bottom:10px;
 padding-bottom:10px;
 
+
+
 }
 
 
-
-
-#bmi,label{
-    display:block;
-    margin-top:10px;
+#bmi, label{
+display:block;
 
 }
+
+#bmi .labelone{
+    padding-top:20px;
+}
+
+
 
 
 
 .but{
     display:block;
-    padding:10px;
+    padding:.9rem;
     width:100px;
     margin-top:10px;
     border-radius: 10px;
     background:rgb(55, 189, 55);
     color:white;
     cursor: pointer;
+    margin-left:2.5rem;
+    font-weight: bold;
+
   
     
+}
+
+
+.but:hover{
+    background-color: white;
+    color:rgb(55, 189, 55);
 }
 
 img{
    height:11%;
    width:10%;
-    padding-left:50px;
+   padding-bottom:10px;
+    padding-left:3.2rem;
+    border-radius: 18px;
    
     
    
@@ -54,13 +80,309 @@ img{
 }
 
 
-.meow{
-   
+
+@media (min-width: 360px) and (max-width: 640px) {
+#bmi {
+    margin-left: 50%;
+    padding-top: 60%;
   
-    width:30px;
-    padding-left: 50px;
-    color:green;
     
 
 
+}
+
+
+
+img {
+    height: 55px;
+    width: 62px;
+    padding-left: 50px;
+
+
+
+
+}
+
+
+
+.weight {
+    width: 200px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+
+
+
+}
+
+#bmi,
+input {
+    display: block;
+    margin-top: 5px;
+    color: black;
+
+
+}
+
+.but {
+    margin-left: 40px;
+    padding: 0.9rem;
+    border-radius: 10px;
+    
+}
+
+.but:hover {
+    background-color: white;
+    color: rgb(55, 189, 55);
+    
+}
+
+body {
+    background: linear-gradient(to left, rgb(55, 189, 55)50%, white 45%);
+}
+
+#bmi,
+label {
+    display: block;
+    padding-bottom: 5px;
+
+
+}
+
+#bmi .labelone {
+    padding-top: 20px;
+}
+
+}
+
+
+
+
+
+
+
+/*mobile*/
+ 
+@media (min-width: 320px) and (max-width: 480px) {
+    
+#bmi {
+    margin-left: 20%;
+    padding-top: 20%;
+    margin-right:10%;
+   
+
+}
+
+
+
+img {
+    height: 55px;
+    width: 62px;
+    padding-left: 50px;
+
+
+
+
+}
+
+
+
+.weight {
+    width: 200px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+   
+  
+
+
+}
+
+#bmi,
+input {
+    display: block;
+    margin-top: 5px;
+    color:black;
+
+
+}
+
+.but{
+    margin-left :40px;
+    padding:0.9rem;
+    border-radius: 10px;
+}
+
+.but:hover {
+    background-color: white;
+    color: rgb(55, 189, 55);
+}
+
+body{
+    background: linear-gradient(to left, rgb(55, 189, 55)50%, white 45%);
+}
+
+#bmi,
+label {
+    display: block;
+    padding-bottom: 5px;
+
+
+}
+
+#bmi .labelone {
+    padding-top: 20px;
+}
+}
+
+
+
+/* tablet and mobile*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+#bmi {
+    margin-left: 20%;
+    margin-top:50%;
+   
+
+}
+
+img {
+    height: 70px;
+    width: 62px;
+    padding-left: 40px;
+  
+
+}
+
+
+
+.weight {
+    width: 200px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+
+
+
+}
+
+#bmi,
+input {
+    display: block;
+    margin-top: 5px;
+    color: black;
+
+
+}
+
+.but {
+    margin-left: 6rem;
+    padding: 0.9rem;
+    border-radius: 10px;
+    
+}
+
+.but:hover {
+    background-color: white;
+    color: rgb(55, 189, 55);
+}
+
+body {
+    background: linear-gradient(to left, rgb(55, 189, 55)50%, white 50%);
+    
+    
+}
+    
+#bmi,
+label {
+    display: block;
+    padding-bottom: 5px;
+
+
+}
+
+#bmi .labelone {
+    padding-top: 20px;
+}
+}
+
+
+
+/*  most smartphones*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    #bmi {
+        margin-left: 30%;
+        padding-top: 40%;
+      
+
+    }
+
+    img {
+        height: 65px;
+        width: 62px;
+        padding-left: 60px;
+       
+
+    }
+
+
+
+    .weight {
+        width: 200px;
+        padding-top: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+
+
+
+
+    }
+
+    #bmi,
+    input {
+        display: block;
+        margin-top: 5px;
+        color: black;
+
+
+    }
+
+    .but {
+        margin-left: 40px;
+        padding: 0.9rem;
+        border-radius: 10px;
+
+    }
+
+   .but:hover {
+       background-color: white;
+       color: rgb(55, 189, 55);
+   }
+
+
+    body {
+        background: linear-gradient(to left, rgb(55, 189, 55)50%, white 50%);
+
+
+    }
+#bmi,
+label {
+    display: block;
+    padding-bottom: 5px;
+
+
+}
+
+#bmi .labelone {
+    padding-top: 20px;
+}
 }
